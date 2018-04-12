@@ -3,13 +3,14 @@ package fr.diginamic.ProjetHeritage.animal;
 import javax.swing.GroupLayout.Alignment;
 
 import fr.diginamic.ProjetExempleHeritage.Aliment.Aliment;
+import fr.diginamic.ProjetExempleHeritage.regime.Regime;
 
 public abstract class Animal {
 	
 	private int age;
 	private float poids;
 	private int taille; // taille en cm
-	private String regime;
+	private Regime regime;
 	private String name;
 	
 
@@ -24,6 +25,25 @@ public abstract class Animal {
 		this.age = age;
 		this.poids = poids;
 		this.taille = taille;
+		this.name = name;
+	}
+
+
+	public void setRegime(Regime regime) {
+		this.regime = regime;
+	}
+
+	public Regime getregime() {
+		return regime;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
 		this.name = name;
 	}
 

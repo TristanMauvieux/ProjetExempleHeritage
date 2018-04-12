@@ -8,7 +8,5 @@ public class Lion extends Animal{
 		super(age, poids, taille,"");
 	}
 	
-	public Lion() {
-		super();
-	}
+
 }

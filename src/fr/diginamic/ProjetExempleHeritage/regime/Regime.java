@@ -14,9 +14,9 @@ public abstract class Regime {
 	
 	
 	
-	public void manger(Aliment aliment) {
+	public abstract void manger(Aliment aliment);/* {
 		System.out.println("j'ai manger "+ aliment.getNom());
-	}
+	}*/
 	
 	
 	
