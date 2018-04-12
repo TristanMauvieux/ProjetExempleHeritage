@@ -11,7 +11,7 @@ public class Herbivore extends Regime {
 	@Override
 	public void manger(Aliment aliment) {
 		if(!aliment.getViande()) {
-			System.out.println("j'ai manger "+ aliment.getNom());
+			System.out.println("j'ai mangé "+ aliment.getNom());
 		}else {
 			System.out.println(" je ne peux pas manger ça ! Je ne veux pas manger ça !");
 		}

@@ -1,6 +1,5 @@
 package fr.diginamic.ProjetExempleHeritage.main;
 
-import fr.diginamic.ProjetExempleHeritage.Aliment.Aliment;
 import fr.diginamic.ProjetExempleHeritage.Aliment.Plante;
 import fr.diginamic.ProjetExempleHeritage.Aliment.Viande;
 import fr.diginamic.ProjetExempleHeritage.animaux.Homme;
@@ -25,7 +24,8 @@ public class main {
 		
 		henry.getregime().manger(steak);
 		henry.getregime().manger(carotte);
-
+		henry.getregime().manger(bunny);
+		henry.getregime().manger(philipe);
 	}
 
 }

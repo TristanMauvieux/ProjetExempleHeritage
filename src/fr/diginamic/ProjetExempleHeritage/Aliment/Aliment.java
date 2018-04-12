@@ -1,7 +1,5 @@
 package fr.diginamic.ProjetExempleHeritage.Aliment;
 
-import fr.diginamic.ProjetHeritage.animal.Animal;
-
 public abstract class Aliment {
 	private String nom;
 	private Boolean viande;

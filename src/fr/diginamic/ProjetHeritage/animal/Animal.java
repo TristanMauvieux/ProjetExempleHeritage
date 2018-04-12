@@ -3,9 +3,10 @@ package fr.diginamic.ProjetHeritage.animal;
 import javax.swing.GroupLayout.Alignment;
 
 import fr.diginamic.ProjetExempleHeritage.Aliment.Aliment;
+import fr.diginamic.ProjetExempleHeritage.Aliment.Viande;
 import fr.diginamic.ProjetExempleHeritage.regime.Regime;
 
-public abstract class Animal {
+public abstract class Animal extends Viande {
 	
 	private int age;
 	private float poids;
@@ -16,6 +17,7 @@ public abstract class Animal {
 
 	
 	public Animal(int age, float poids, int taille, String name,Regime regime) {
+		super(name);
 		setAge(age);
 		setPoids(poids);
 		setTaille(taille);

@@ -11,7 +11,7 @@ public class Omnivore extends Regime {
 
 	@Override
 	public void manger(Aliment aliment) {
-		System.out.println("j'ai manger "+ aliment.getNom());
+		System.out.println("j'ai mangé "+ aliment.getNom());
 		
 	}
 	
