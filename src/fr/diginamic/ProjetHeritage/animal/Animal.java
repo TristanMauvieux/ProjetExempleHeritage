@@ -6,9 +6,12 @@ import fr.diginamic.ProjetExempleHeritage.Aliment.Aliment;
 
 public abstract class Animal {
 	
-	int age;
-	float poids;
-	int taille; // taille en cm
+	private int age;
+	private float poids;
+	private int taille; // taille en cm
+	private String regime;
+	
+
 	
 	public Animal() {
 		this(0, 0, 0);

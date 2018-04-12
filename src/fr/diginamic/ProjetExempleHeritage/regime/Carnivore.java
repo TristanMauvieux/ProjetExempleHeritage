@@ -1,14 +1,11 @@
 package fr.diginamic.ProjetExempleHeritage.regime;
 
-import fr.diginamic.ProjetHeritage.animal.Animal;
 
-public abstract class Carnivore extends Animal {
+public class Carnivore extends Regime {
 
 	public Carnivore() {
 		super();
 	}
 	
-	public Carnivore(int age, float poids, int taille) {
-		super(age, poids, taille);
-	}
+
 }
