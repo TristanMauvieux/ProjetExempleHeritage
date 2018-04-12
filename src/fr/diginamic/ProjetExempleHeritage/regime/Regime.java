@@ -14,7 +14,10 @@ public abstract class Regime {
 	
 	
 	
-	public abstract void manger(Aliment aliment);/* {
+	public void manger(Aliment aliment) throws Exception {
+		throw new Exception();
+	}/* {
+	}
 		System.out.println("j'ai manger "+ aliment.getNom());
 	}*/
 	

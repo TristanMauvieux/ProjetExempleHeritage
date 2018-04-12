@@ -1,6 +1,7 @@
 package fr.diginamic.ProjetExempleHeritage.regime;
 
 import fr.diginamic.ProjetExempleHeritage.Aliment.Aliment;
+import fr.diginamic.ProjetExempleHeritage.Aliment.Plante;
 
 public class Herbivore extends Regime {
 
@@ -8,8 +9,7 @@ public class Herbivore extends Regime {
 		super();
 	}
 
-	@Override
-	public void manger(Aliment aliment) {
+	public void manger(Plante aliment) {
 		if(!aliment.getViande()) {
 			System.out.println("j'ai mangé "+ aliment.getNom());
 		}else {

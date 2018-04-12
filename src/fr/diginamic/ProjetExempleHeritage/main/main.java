@@ -19,13 +19,43 @@ public class main {
 		Plante carotte = new Plante("carotte");
 		Viande steak = new Viande("steak");
 		
-		bunny.getregime().manger(steak);
-		bunny.getregime().manger(carotte);
+		try {
+			bunny.getregime().manger(steak);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			bunny.getregime().manger(carotte);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-		henry.getregime().manger(steak);
-		henry.getregime().manger(carotte);
-		henry.getregime().manger(bunny);
-		henry.getregime().manger(philipe);
+		try {
+			henry.getregime().manger(steak);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			henry.getregime().manger(carotte);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			henry.getregime().manger(bunny);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			henry.getregime().manger(philipe);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
