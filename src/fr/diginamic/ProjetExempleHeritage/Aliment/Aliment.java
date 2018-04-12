@@ -1,6 +1,8 @@
 package fr.diginamic.ProjetExempleHeritage.Aliment;
 
-public class Aliment {
+import fr.diginamic.ProjetHeritage.animal.Animal;
+
+public abstract class Aliment {
 	private String nom;
 	private Boolean viande;
 	
@@ -28,6 +30,8 @@ public class Aliment {
 	private void setViande(Boolean viande) {
 		this.viande = viande;
 	}
+	
+	
 	
 	
 

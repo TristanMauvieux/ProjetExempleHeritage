@@ -5,8 +5,8 @@ import fr.diginamic.ProjetHeritage.animal.Animal;
 
 public class Lion extends Animal{
 
-	public Lion(int age, float poids, int taille) {
-		super(age, poids, taille,"",new Carnivore());
+	public Lion(int age, float poids, int taille, String name) {
+		super(age, poids, taille,name,new Carnivore());
 	}
 	
 
