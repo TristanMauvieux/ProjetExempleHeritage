@@ -9,6 +9,6 @@ public class Homme extends Animal{
 	}
 	
 	public Homme(int age, float poids, int taille) {
-		super(age, poids, taille);
+		super(age, poids, taille,"");
 	}
 }

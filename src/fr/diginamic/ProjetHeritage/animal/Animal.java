@@ -10,19 +10,21 @@ public abstract class Animal {
 	private float poids;
 	private int taille; // taille en cm
 	private String regime;
+	private String name;
 	
 
 	
 	public Animal() {
-		this(0, 0, 0);
+		this(0, 0, 0,"");
 	}
 	
 	
 	
-	public Animal(int age, float poids, int taille) {
+	public Animal(int age, float poids, int taille, String name) {
 		this.age = age;
 		this.poids = poids;
 		this.taille = taille;
+		this.name = name;
 	}
 
 
