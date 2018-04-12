@@ -10,7 +10,11 @@ public class Herbivore extends Regime {
 
 	@Override
 	public void manger(Aliment aliment) {
-		// TODO Auto-generated method stub
+		if(!aliment.getViande()) {
+			System.out.println("j'ai manger "+ aliment.getNom());
+		}else {
+			System.out.println(" je ne peux pas manger ça ! Je ne veux pas manger ça !");
+		}
 		
 	}
 	

@@ -15,20 +15,16 @@ public abstract class Animal {
 	
 
 	
-	public Animal() {
-		this(0, 0, 0,"");
-	}
-	
-	
-	
-	public Animal(int age, float poids, int taille, String name) {
-		this.age = age;
-		this.poids = poids;
-		this.taille = taille;
-		this.name = name;
+	public Animal(int age, float poids, int taille, String name,Regime regime) {
+		setAge(age);
+		setPoids(poids);
+		setTaille(taille);
+		setName(name);
+		setRegime(regime);
 	}
 
-
+	
+	
 	public void setRegime(Regime regime) {
 		this.regime = regime;
 	}
